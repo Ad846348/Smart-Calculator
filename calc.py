@@ -1,6 +1,6 @@
 def calc():
     print("SMART CALCULATOR")
-    while true():
+    while True ():
         """ 1. Addition
 2.Subtraction
 3.Multiplication
@@ -8,7 +8,8 @@ def calc():
 5.Division
 6.Modulus
 7.Exponential
-8.Table of a and b"""
+8.Table of a and b
+9.Exit"""        
 a=int(input("enter the number "))
 b=int(input("enter the number "))
 i=int(input("enter choice "))
@@ -30,6 +31,8 @@ elif(i==8):
           for j in range(1,11):
               print("table of a=",a*j)
               print("table of b=",b*j)
+elif (i==9):
+    print("Exit")
 else:
           print("invalid")
 
