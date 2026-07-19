@@ -36,6 +36,7 @@ def calc():
             break 
         else:
           print("invalid")
+calc()
 
           
                                 
