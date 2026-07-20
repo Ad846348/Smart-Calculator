@@ -30,6 +30,10 @@ It performs 8 types of mathematical operations.
    # 6. To-Do List
    It is a simple To-Do-List.
    It allow users to add, delete and show their tasks...
+
+   # 7. Contact Book 
+   It is a python based contact book that offers user to add,search and show contacts...
+   
    
    
 
