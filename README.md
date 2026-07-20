@@ -26,6 +26,11 @@ It performs 8 types of mathematical operations.
    # 5. Simple Calculator 
    Features:-✨
    This is a simple python function based calculator. It performs 4 functions.
+
+   # 6. To-Do List
+   It is a simple To-Do-List.
+   It allow users to add, delete and show their tasks...
+   
    
 
    
