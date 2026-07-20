@@ -1,12 +1,17 @@
 tasks = []
+completed=[]
 
 def show_task():
     if len(tasks) == 0:
         print("No task available")
     else:
         print("\n--- Your Tasks ---")
-        for i, task in enumerate(tasks, 1):  
-            print(f"{i}. {task}")            
+        for i, task in enumerate(tasks, 1):
+            if i in completed:
+                print("status=",✅)
+            else:
+                print("status=",❌)
+            print(f"{i}.{status} {task}")            
 
 def add_task():
     a = input("Enter task: ")
